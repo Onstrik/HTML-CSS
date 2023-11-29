@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+/* {
+    padding: 0;
+    margin: 0;
+} */
+
+
+
+body {
+    background-color: f1f1f1  ;
+    font-size: 20px;
+    font-weight: normal;
+
+    /*font-family: font-family: 'Roboto', sans-serif;*/
+    
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(224, 8, 8);
+
+}
+
+a:visited { 
+    color: normal;
+}
+
+h1 {
+    color: rgb(100, 15, 15);
+}
+h3 { 
+    font-size: 3cqi;
+}
+#avatar {
+width: 200px;
+border-radius: 60px;
+box-shadow: 15px 20px 14px rgba(0,0,0,0.25);
+margin: 10px -10px 70px;
+}
+.rum {
+    display: inherit;
+    flex-direction: column;
+    margin: 50px;
+    padding-bottom: 0px;
+    font-family: none;
+
+}
+
+
+.info {
+margin-bottom: 5px;
+
+}
+
+.info p{    
+    color: #86898f;
+    margin: 10px;
+    font-style: initial;
+    font-weight: bold;
+    text-decoration:none ;
+    
+    
+   /* text-transform: uppercase;*/
+   /* letter-spacing: 55px;*/
+      /* word-spacing: 600px;*/
+}
+
+  /*box model*/
+.container {
+    padding left: 500px;
+   width: 50%;
+   margin: auto;
+}
+/*.social {*/
+  /*  background: goldenrod ;*/
+   /* padding: 15px*/
+   /* padding: 15px 40px ;*/
+   /* padding-top: ;
+    padding-bottom: ;
+    padding-left: ;
+    padding-right: ; к margin применяются точно такие же функции
+    margin: 20px;
+
+
+    border: 5px solid red;
+    border-bottom-style:dotted ;
+    border-top-width: 15px;
+    border-right-color: blueviolet;*/
+    /* } */
+
+        /* .box-model > div {
+    float: left ;
+    background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box; }*/
+
+
+
+.bg-green {
+background:#b1dafc ;
+margin: 1px;
+display: 
+}
+
+.bg-yellow {
+background:#fff9dc ;
+}
+
+.bg-red {
+background: #ffe5e5;
+
+ }
+
+
+.card {
+    padding: 15px 20px;
+    color: rgb(32, 2, 2);
+    
+    margin-bottom: 20px;
+    border-radius:  40px; ;
+}
+
+.card  h3 {
+    color: black;
+}
+
+.list {
+    padding: 0 15px ;
+    list-style: none;
+    
+}
+.list li {
+ margin-bottom: 10px;
+ padding-bottom: 5 px;
+ border-bottom: 1px solid #ccc;
+
+}
+
+
+.table {
+width: 100%; 
+}
+
+.table td {
+    padding-bottom: 5px;
+}
+ .table tr :nth-child(3), 
+ .table tr :nth-child(2),
+ .table tr :nth-child(1)
+ {color: #86898f;}
+    
+/*.table.tr :nth-child(odd)
+{
+    background: red;
+}
+.table td:nth-child (even)
+ {
+   background: red;
+},
+.table td:nth-child(3)
+{ 
+color: #86898f;}*/
+
+.info  {
+    display: flex;
+    margin-bottom: 30px;
+
+ @media (max-width: 2px) 
+     { .info  {
+        text-align: center;
+         display: block;}
+    
+    }
+
+}
+  
+
+.contact h3 {
+    text-align: center;
+} 
+ .form-group label {
+display: block;
+font-size: 15px;
+color:#86898f
+ }
+ .form-group input,
+ .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none ;
+    background: transparent;
+   border-bottom: 1px solid #ccc;
+   color: black;
+   padding: 15 px 0 10px;
+   outline:  none;
+   font-family: inherit;
+    }
+    .row {
+        display: flex ;
+        margin-bottom: 20px;
+
+    }
+
+.row> .form-group {
+    width: 50%;
+    margin-right: 20px;
+    
+}
+.row >.form-group:last-child{
+    margin-right:5px;
+}
+
+.btn {
+    background: black;
+     color:white ;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/*.btn:hover {
+    opacity: 0.9;
+}*/
+
+
+/*position
+.position{
+    position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+padding: 20px;
+height: 300px;
+}
+
+.box{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    /*bottom:150px;*/
+    /*left: 0px;
+    width: 100%;
+    height: 5px;
+    background:red} */;
